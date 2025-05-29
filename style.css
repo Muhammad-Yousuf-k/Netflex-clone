@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    height: 2px;
+    opacity: 30%;
+
+}
+
+.nav_hr {
+    position: absolute;
+    background-color: lightgray;
+    top: 800px;
+    width: 100%;
+    z-index: 4;
+}
+
+body {
+    /* height: 10000px; */
+}
+
+.bg_img {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.842)), url('img/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg');
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+
+.nav_img {
+    width: 10%;
+    margin-left: 100px;
+}
+
+.nav_btn {
+    padding: 10px 15px;
+    background-color: #f30f20;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+/* main section========================================================= */
+
+.main_box {
+    width: 100%;
+    height: 600px;
+    z-index: 2;
+    position: absolute;
+    /* border: 1px solid rgb(209, 37, 37); */
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main_text {
+    color: white;
+    font-size: 70px;
+    /* margin: 0px auto; */
+    width: 700px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.main_para1 {
+    color: white;
+    font-size: 20px;
+    /* margin: 0px auto; */
+    width: 400px;
+    /* border: 1px solid rgb(209, 37, 37); */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.main_para2 {
+    color: white;
+    font-size: 20px;
+    /* margin: 0px auto; */
+    width: 700px;
+    /* border: 1px solid rgb(209, 37, 37); */
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.main_search {
+    /* border: 1px solid rgb(209, 37, 37); */
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.ma_sh {
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 70%;
+    height: 60px;
+    border-radius: 7px;
+    padding: 0px 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.main_bts {
+    padding: 16px 10px;
+    background-color: #f30f20;
+    border: 1px solid black;
+    border-radius: 7px;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+/* slidshow is here============================================================ */
+
+.slide_hr {
+    position: absolute;
+    background-color: lightgray;
+    top: 1290px;
+    width: 100%;
+    z-index: 4;
+}
+
+.slid_box {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid rgb(209, 37, 37); */
+    z-index: 2;
+    top: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* mix-blend-mode: darken; */
+
+}
+
+.slid_box h1 {
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 385px;
+    font-size: 40px;
+
+}
+
+.card_box {
+    position: relative;
+    /* border: 1px solid rgb(209, 37, 37); */
+    width: 60%;
+    height: 350px;
+    /* margin: 0px auto; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    /* overflow: hidden; */
+    /* scroll-behavior: auto; */
+}
+
+.card {
+    position: absolute;
+    /* border: 1px solid rgb(209, 37, 37); */
+    width: 220px;
+    height: 300px;
+    top: 25px;
+    transition: 0.3s;
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.c2 {
+    margin-left: 230px;
+}
+
+.c3 {
+    margin-left: 460px;
+}
+
+.c4 {
+    margin-left: 690px;
+}
+
+.c5 {
+    margin-left: 920px;
+}
+
+.c6 {
+    margin-left: 1150px;
+}
+
+.c7 {
+    margin-left: 1380px;
+}
+
+.c8 {
+    margin-left: 1610px;
+}
+
+.c9 {
+    margin-left: 1840px;
+}
+
+.c10 {
+    margin-left: 2070px;
+}
+
+/* Reason Section is here======================================================== */
+
+
+.reason_main {
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid rgb(209, 37, 37); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: black;
+}
+
+.reason_main h1 {
+    margin-left: 385px;
+    font-size: 40px;
+    color: white;
+}
+
+.reason_main_cardbox {
+    /* border: 1px solid rgb(209, 37, 37); */
+    width: 70%;
+    height: 350px;
+    margin: 0% auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason_cardbox {
+    width: 270px;
+    height: 300px;
+    /* border: 1px solid rgb(209, 37, 37); */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #1a2042, #20111e);
+    border-radius: 20px;
+}
+
+.reason_cardbox h1 {
+    margin: 0px auto;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    width: 220px;
+    /* border: 1px solid rgb(209, 37, 37); */
+}
+
+.reason_cardbox p {
+    margin: 0px auto;
+    margin-top: 30px;
+    color: white;
+    width: 220px;
+    font-size: 15px;
+}
+
+/* question section is here============================================== */
+
+.qns_main {
+    /* border: 1px solid rgb(209, 37, 37); */
+    position: absolute;
+    top: 1800px;
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.qns_main>h1 {
+    margin-left: 385px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.qns_mainbox {
+    /* border: 1px solid rgb(209, 37, 37); */
+    width: 60%;
+    height: 500px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 8px;
+}
+
+.qns_row {
+    /* border: 1px solid rgb(209, 37, 37); */
+    width: 100%;
+    height: 75px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.qns_row:hover {
+    background-color: #525252;
+
+}
+
+.qns_text {
+    margin-left: 30px;
+    font-weight: 100;
+    color: white;
+}
+
+.qns_img {
+    margin-right: 30px;
+    width: 30px;
+}
+
+.qns_hr {
+    position: absolute;
+    background-color: lightgray;
+    top: 1795px;
+    width: 100%;
+    z-index: 4;
+}
+
+/* footer is here============================================================ */
+
+.footer_hr{
+    position: absolute;
+    background-color: lightgray;
+    top: 2500px;
+    width: 100%;
+    z-index: 4;
+}
+
+.footer_main{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 2500px;
+    /* border: 1px solid rgb(209, 37, 37); */
+    background-color: black;
+}
+
+.footer_searchbox{
+    width: 60%;
+    /* border: 1px solid rgb(209, 37, 37); */
+    height: 200px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.footer_search{
+    /* border: 1px solid rgb(209, 37, 37); */
+    width: 80%;
+    margin: 0px auto;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_anchor{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid rgb(209, 37, 37); */
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.fa_li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer_anchor a{
+    /* text-decoration: none; */
+    color: gray;
+}
+
+.faqns{
+    margin-bottom: 50px;
+}
+
+.footer_last{
+    width: 60%;
+    height: 200px;
+    margin: 0px auto;
+    /* border: 1px solid rgb(209, 37, 37); */
+}
+
+.footer_last_btn{
+    border: 1px solid gray;
+    background-color: transparent;
+    color: gray;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.footer_last_text{
+    color: gray;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.footer_last_text2{
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.footer_last_text3{
+    color: rgb(0, 110, 255);
+}

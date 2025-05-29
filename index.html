@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo1.png">
+    <link rel="stylesheet" href="phone.css">
+</head>
+
+<body>
+    <!-- Navber is here -->
+    <div class="bg_img"></div>
+    <nav>
+        <div class="nav">
+            <img class="nav_img" src="img/logo.png" alt="">
+            <button class="nav_btn">Sign in</button>
+        </div>
+    </nav>
+
+
+    <hr class="nav_hr">
+    <!-- main Section is here -->
+    <section>
+        <div class="main_box">
+            <h1 class="main_text">Unlimited movies, TV shows, and more</h1>
+            <p class="main_para1">Starts at Rs 250. Cancel anytime.</p>
+            <p class="main_para2">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="main_search">
+                <input class="ma_sh" type="search" placeholder="Email Address">
+                <button class="main_bts">Get Started ></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- slidshow is here -->
+    <section>
+        <div class="slid_box">
+            <h1>Treanding Now</h1>
+            <button class="ok" onclick="btn()" id="slbtn">q</button>
+            <div class="card_box">
+                <div id="ci1" class="card c1">
+                    <img src="img/card1.jpg" alt="Image">
+                </div>
+                <div id="ci2" class="card c2">
+                    <img src="img/card2.jpeg" alt="Image">
+                </div>
+                <div id="ci3" class="card c3">
+                    <img src="img/card3.jpg" alt="Image">
+                </div>
+                <div id="ci4" class="card c4">
+                    <img src="img/card4.jpg" alt="Image">
+                </div>
+                <div id="ci5" class="card c5">
+                    <img src="img/card5.jpg" alt="Image">
+                </div>
+                <div id="ci6" class="card c6">
+                    <img src="img/card6.jpg" alt="Image">
+                </div>
+                <div id="ci7" class="card c7">
+                    <img src="img/card7.jpg" alt="Image">
+                </div>
+                <div id="ci8" class="card c8">
+                    <img src="img/card8.jpeg" alt="Image">
+                </div>
+                <div id="ci9" class="card c9">
+                    <img src="img/card9.jpg" alt="Image">
+                </div>
+                <div id="ci10" class="card c10">
+                    <img src="img/card10.jpeg" alt="Image">
+                </div>
+            </div>
+            <button onclick="bttn()" id="slbtn1">a</button>
+        </div>
+    </section>
+
+
+    <hr class="slide_hr">
+    <!-- reason section is here -->
+    <section>
+        <div class="reason_main">
+            <h1>More Reason to Join</h1>
+            <div class="reason_main_cardbox">
+                <div class="reason_cardbox rcb1">
+                    <h1>Enjoy on your TV</h1>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <div class="reason_cardbox rcb2">
+                    <h1>Download your shows to watch offline</h1>
+                    <p>Save your favorites easily and always have something to watch</p>
+                </div>
+                <div class="reason_cardbox rcb3">
+                    <h1>Watch everywhere</h1>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </div>
+                <div class="reason_cardbox rcb4">
+                    <h1>Create profiles for kids</h1>
+                    <p>Send kids on adventures with their favorite characters in a space made just for them — free with
+                        your membership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <hr class="qns_hr">
+    <!-- Question section is here -->
+    <section>
+        <div class="qns_main">
+            <h1>Frequently Asked Questions</h1>
+            <div class="qns_mainbox">
+                <div onclick="toggle()" id="qr1" class="qns_row qr1">
+                    <h1 class="qns_text">What is Netflix?</h1>
+                    <img class="qns_img" src="icon/plus.svg" alt="img">
+                </div>
+                <div class="qns_row qr2">
+                    <h1 class="qns_text">How much does Netflix cost?</h1>
+                    <img class="qns_img" src="icon/plus.svg" alt="img">
+                </div>
+                <div class="qns_row qr3">
+                    <h1 class="qns_text">Where can I watch?</h1>
+                    <img class="qns_img" src="icon/plus.svg" alt="img">
+                </div>
+                <div class="qns_row qr4">
+                    <h1 class="qns_text">How do I cancel?</h1>
+                    <img class="qns_img" src="icon/plus.svg" alt="img">
+                </div>
+                <div class="qns_row qr5">
+                    <h1 class="qns_text">What can I watch on Netflix?</h1>
+                    <img class="qns_img" src="icon/plus.svg" alt="img">
+                </div>
+                <div class="qns_row qr6">
+                    <h1 class="qns_text">Is Netflix good for kids?</h1>
+                    <img class="qns_img" src="icon/plus.svg" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <hr class="footer_hr">
+    <!-- Footer is here -->
+    <section>
+        <div class="footer_main">
+            <div class="footer_searchbox">
+                <h1 class="footer_text">Ready to watch? Enter your email to create or restart your membership.</h1>
+                <div class="footer_search">
+                    <input class="ma_sh" type="search" placeholder="Email Address">
+                    <button class="main_bts">Get Started ></button>
+                </div>
+            </div>
+            <div class="footer_anchor">
+                <div class="fa_first">
+                    <ul>
+                        <li class="faqns"><a href="#">Questions? Contact us.</a></li>
+                        <li class="fa_li"><a href="#">FAQ</a></li>
+                        <li class="fa_li"><a href="#">Investor Relations</a></li>
+                        <li class="fa_li"><a href="#">Privacy</a></li>
+                        <li class="fa_li"><a href="#">Speed Test</a></li>
+                    </ul>
+                </div>
+                <div class="fa_second">
+                    <ul>
+                        <li class="fa_li"><a href="#">Help Center</a></li>
+                        <li class="fa_li"><a href="#">Jobs</a></li>
+                        <li class="fa_li"><a href="#">Cookie Preferences</a></li>
+                        <li class="fa_li"><a href="#">Legal Notices</a></li>
+                    </ul>
+                </div>
+                <div class="fa_third">
+                    <ul>
+                        <li class="fa_li"><a href="#">Account</a></li>
+                        <li class="fa_li"><a href="#">Ways to Watch</a></li>
+                        <li class="fa_li"><a href="#">Corporate Information</a></li>
+                        <li class="fa_li"><a href="#">Only on Netflix</a></li>
+                    </ul>
+                </div>
+                <div class="fa_fourth">
+                    <ul>
+                        <li class="fa_li"><a href="#">Media Center</a></li>
+                        <li class="fa_li"><a href="#">Terms of Use</a></li>
+                        <li class="fa_li"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_last">
+                <button class="footer_last_btn">English</button>
+                <h3 class="footer_last_text">Netflix Pakistan</h3>
+                <p class="footer_last_text2">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a class="footer_last_text3" href="#">Learn more.</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="qns.js"></script>
+</body>
+
+</html>
